@@ -36,27 +36,27 @@ Pentesting/
 
 | File                                                               | Description                                                          |
 | ------------------------------------------------------------------ | -------------------------------------------------------------------- |
-| [`API Security Testing.md`](WEB/API%20Security%20Testing.md)       | OWASP API Top 10, BOLA, BFLA, mass assignment, JWT, GraphQL, tools   |
-| [`CSRF.md`](WEB/CSRF.md)                                           | Cross-Site Request Forgery, GET/POST/JSON, token bypass              |
-| [`Command Injection.md`](WEB/Command%20Injection.md)               | OS command injection, separators, time-based, OOB, bypasses          |
-| [`DOM Based XSS.md`](WEB/DOM%20Based%20XSS.md)                     | Sources, sinks, payloads, postMessage, localStorage                  |
-| [`File Upload.md`](WEB/File%20Upload.md)                           | Extension bypass, magic bytes, content-type, web shells              |
-| [`GraphQL Injection.md`](WEB/GraphQL%20Injection.md)               | Introspection, batching, aliasing, IDOR, DoS, mutations              |
-| [`HEADERS.md`](WEB/HEADERS.md)                                     | Offensive headers, JWT, GraphQL, NoSQLi, deserialization, WAF bypass |
-| [`IDOR.md`](WEB/IDOR.md)                                           | Insecure Direct Object Reference, parameters, bypasses               |
-| [`INSECURE DESERIALIZATION.md`](WEB/INSECURE%20DESERIALIZATION.md) | PHP, Java, Python, .NET, Ruby, Node.js, POP chains                   |
-| [`JWT.md`](WEB/JWT.md)                                             | None algorithm, alg confusion, kid injection, jku/x5u, brute force   |
-| [`LDAP XPath Injection.md`](WEB/LDAP%20XPath%20Injection.md)       | LDAP and XPath, auth bypass, data extraction                         |
-| [`NoSQLi.md`](WEB/NoSQLi.md)                                       | MongoDB operators, `$ne`, `$regex`, `$where`, JavaScript injection   |
-| [`Open Redirect.md`](WEB/Open%20Redirect.md)                       | Generic payloads, allowlist bypass, chaining with SSRF               |
-| [`Path Traversal LFI RFI.md`](WEB/Path%20Traversal%20LFI%20RFI.md) | Directory traversal, LFI, RFI, PHP wrappers, log poisoning           |
-| [`Race Conditions.md`](WEB/Race%20Conditions.md)                   | TOCTOU, limit overrun, HTTP/2 single-packet attack, Python script    |
-| [`SQLi.md`](WEB/SQLi.md)                                           | SQL Injection, UNION, error-based, boolean, time-based, bypasses     |
-| [`SSRF.md`](WEB/SSRF.md)                                           | Server-Side Request Forgery, cloud metadata, gopher, bypasses        |
-| [`SSTI.md`](WEB/SSTI.md)                                           | Jinja2, Twig, Freemarker, Velocity, Pug, EJS, ERB, bypasses          |
-| [`Wordpress.md`](WEB/Wordpress.md)                                 | Enumeration, wp-config, xmlrpc, REST API, WPScan, brute force        |
-| [`XSS.md`](WEB/XSS.md)                                             | Reflected, stored, DOM, encoding, WAF bypass, polyglots              |
-| [`XXE.md`](WEB/XXE.md)                                             | XML External Entity, file read, blind OOB, DoS, wrappers             |
+| [`API Security Testing`](WEB/API%20Security%20Testing.md)       | OWASP API Top 10, BOLA, BFLA, mass assignment, JWT, GraphQL, tools   |
+| [`CSRF`](WEB/CSRF.md)                                           | Cross-Site Request Forgery, GET/POST/JSON, token bypass              |
+| [`Command Injection`](WEB/Command%20Injection.md)               | OS command injection, separators, time-based, OOB, bypasses          |
+| [`DOM Based XSS`](WEB/DOM%20Based%20XSS.md)                     | Sources, sinks, payloads, postMessage, localStorage                  |
+| [`File Upload`](WEB/File%20Upload.md)                           | Extension bypass, magic bytes, content-type, web shells              |
+| [`GraphQL Injection`](WEB/GraphQL%20Injection.md)               | Introspection, batching, aliasing, IDOR, DoS, mutations              |
+| [`HEADERS`](WEB/HEADERS.md)                                     | Offensive headers, JWT, GraphQL, NoSQLi, deserialization, WAF bypass |
+| [`IDOR`](WEB/IDOR.md)                                           | Insecure Direct Object Reference, parameters, bypasses               |
+| [`INSECURE DESERIALIZATION`](WEB/INSECURE%20DESERIALIZATION.md) | PHP, Java, Python, .NET, Ruby, Node.js, POP chains                   |
+| [`JWT`](WEB/JWT.md)                                             | None algorithm, alg confusion, kid injection, jku/x5u, brute force   |
+| [`LDAP XPath Injection`](WEB/LDAP%20XPath%20Injection.md)       | LDAP and XPath, auth bypass, data extraction                         |
+| [`NoSQLi`](WEB/NoSQLi.md)                                       | MongoDB operators, `$ne`, `$regex`, `$where`, JavaScript injection   |
+| [`Open Redirect`](WEB/Open%20Redirect.md)                       | Generic payloads, allowlist bypass, chaining with SSRF               |
+| [`Path Traversal LFI RFI`](WEB/Path%20Traversal%20LFI%20RFI.md) | Directory traversal, LFI, RFI, PHP wrappers, log poisoning           |
+| [`Race Conditions`](WEB/Race%20Conditions.md)                   | TOCTOU, limit overrun, HTTP/2 single-packet attack, Python script    |
+| [`SQLi`](WEB/SQLi.md)                                           | SQL Injection, UNION, error-based, boolean, time-based, bypasses     |
+| [`SSRF`](WEB/SSRF.md)                                           | Server-Side Request Forgery, cloud metadata, gopher, bypasses        |
+| [`SSTI`](WEB/SSTI.md)                                           | Jinja2, Twig, Freemarker, Velocity, Pug, EJS, ERB, bypasses          |
+| [`Wordpress`](WEB/Wordpress.md)                                 | Enumeration, wp-config, xmlrpc, REST API, WPScan, brute force        |
+| [`XSS`](WEB/XSS.md)                                             | Reflected, stored, DOM, encoding, WAF bypass, polyglots              |
+| [`XXE`](WEB/XXE.md)                                             | XML External Entity, file read, blind OOB, DoS, wrappers             |
 
 ---
 
@@ -64,12 +64,12 @@ Pentesting/
 
 | File | Description |
 |------|-------------|
-| [`ADVANCED WEB RECON.md`](RECON/ADVANCED%20WEB%20RECON.md) | Katana, WhatWeb, httpx, naabu, dnsx, tlsx, waybackurls, pipelines |
-| [`Linux Network Recon & Sniffing.md`](RECON/Linux%20Network%20Recon%20%26%20Sniffing.md) | ip, ss, netstat, tcpdump, tshark, WiFi, IPv6, DNS/SNI sniffing |
-| [`NMAP.md`](RECON/NMAP.md) | Scans, NSE scripts, evasion, timing, output, automation |
-| [`OSINT.md`](RECON/OSINT.md) | theHarvester, SpiderFoot, Sherlock, Holehe, Shodan, exiftool, whois, Maltego |
-| [`Subdomain Takeover.md`](RECON/Subdomain%20Takeover.md) | Detection, fingerprints, subjack, SubOver, dnsReaper, mitigation |
-| [`Web Recon Tools.md`](RECON/Web%20Recon%20Tools.md) | ffuf, Gobuster, CeWL, Nuclei, Masscan, pipelines |
+| [`ADVANCED WEB RECON`](RECON/ADVANCED%20WEB%20RECON.md) | Katana, WhatWeb, httpx, naabu, dnsx, tlsx, waybackurls, pipelines |
+| [`Linux Network Recon & Sniffing`](RECON/Linux%20Network%20Recon%20%26%20Sniffing.md) | ip, ss, netstat, tcpdump, tshark, WiFi, IPv6, DNS/SNI sniffing |
+| [`NMAP`](RECON/NMAP.md) | Scans, NSE scripts, evasion, timing, output, automation |
+| [`OSINT`](RECON/OSINT.md) | theHarvester, SpiderFoot, Sherlock, Holehe, Shodan, exiftool, whois, Maltego |
+| [`Subdomain Takeover`](RECON/Subdomain%20Takeover.md) | Detection, fingerprints, subjack, SubOver, dnsReaper, mitigation |
+| [`Web Recon Tools`](RECON/Web%20Recon%20Tools.md) | ffuf, Gobuster, CeWL, Nuclei, Masscan, pipelines |
 
 ---
 
@@ -77,17 +77,17 @@ Pentesting/
 
 | File | Description |
 |------|-------------|
-| [`Active Directory.md`](INFRA/Active%20Directory.md) | Enumeration, Kerberoasting, AS-REP, BloodHound, multi-DC scripts |
-| [`BlueTooth.md`](INFRA/BlueTooth.md) | hciconfig, hcitool, bluetoothctl, sdptool, BLE, btlejack, KNOB, BIAS |
-| [`Cloud Pentesting.md`](INFRA/Cloud%20Pentesting.md) | AWS, Azure, GCP, IMDS, S3, IAM, containers (Docker/K8s), CI/CD |
-| [`Firewall, IDS & IPS.md`](INFRA/Firewall,%20IDS%20%26%20IPS.md) | UFW, iptables, fail2ban, Suricata, Snort |
-| [`Linux System & Desktop Tuning.md`](INFRA/Linux%20System%20%26%20Desktop%20Tuning.md) | bashrc, fastfetch, systemd, TLP, powertop, KDE reset, fstab |
-| [`MITM Tools.md`](INFRA/MITM%20Tools.md) | Bettercap, Ettercap, mitmproxy, ARP/DNS spoofing, filters |
-| [`POST-EXPLOITATION.md`](INFRA/POST-EXPLOITATION.md) | Sliver C2, Ligolo-ng, Chisel, persistence, exfiltration, covering tracks |
-| [`Pivoting & Privilege Escalation.md`](INFRA/Pivoting%20%26%20Privilege%20Escalation.md) | SSH tunneling, linpeas, SUID, capabilities, pivoting from Linux |
-| [`SSH Pivoting, Servers & Infrastructure.md`](INFRA/SSH%20Pivoting,%20Servers%20%26%20Infrastructure.md) | SSH tunnels, ngrok, cloudflared, vsftpd, Hydra SSH |
-| [`WiFi Attacks.md`](INFRA/WiFi%20Attacks.md) | Aircrack-ng, Wifite, Wifipumpkin3, handshake, PMKID, evil twin |
-| [`Windows AD Tooling.md`](INFRA/Windows%20AD%20Tooling.md) | smbclient, evil-winrm, Responder, Impacket, winPEAS, MSSQL |
+| [`Active Directory`](INFRA/Active%20Directory.md) | Enumeration, Kerberoasting, AS-REP, BloodHound, multi-DC scripts |
+| [`BlueTooth`](INFRA/BlueTooth.md) | hciconfig, hcitool, bluetoothctl, sdptool, BLE, btlejack, KNOB, BIAS |
+| [`Cloud Pentesting`](INFRA/Cloud%20Pentesting.md) | AWS, Azure, GCP, IMDS, S3, IAM, containers (Docker/K8s), CI/CD |
+| [`Firewall, IDS & IPS`](INFRA/Firewall,%20IDS%20%26%20IPS.md) | UFW, iptables, fail2ban, Suricata, Snort |
+| [`Linux System & Desktop Tuning`](INFRA/Linux%20System%20%26%20Desktop%20Tuning.md) | bashrc, fastfetch, systemd, TLP, powertop, KDE reset, fstab |
+| [`MITM Tools`](INFRA/MITM%20Tools.md) | Bettercap, Ettercap, mitmproxy, ARP/DNS spoofing, filters |
+| [`POST-EXPLOITATION`](INFRA/POST-EXPLOITATION.md) | Sliver C2, Ligolo-ng, Chisel, persistence, exfiltration, covering tracks |
+| [`Pivoting & Privilege Escalation`](INFRA/Pivoting%20%26%20Privilege%20Escalation.md) | SSH tunneling, linpeas, SUID, capabilities, pivoting from Linux |
+| [`SSH Pivoting, Servers & Infrastructure`](INFRA/SSH%20Pivoting,%20Servers%20%26%20Infrastructure.md) | SSH tunnels, ngrok, cloudflared, vsftpd, Hydra SSH |
+| [`WiFi Attacks`](INFRA/WiFi%20Attacks.md) | Aircrack-ng, Wifite, Wifipumpkin3, handshake, PMKID, evil twin |
+| [`Windows AD Tooling`](INFRA/Windows%20AD%20Tooling.md) | smbclient, evil-winrm, Responder, Impacket, winPEAS, MSSQL |
 
 ---
 
@@ -95,8 +95,8 @@ Pentesting/
 
 | File | Description |
 |------|-------------|
-| [`Credential Attacks.md`](CREDS/Credential%20Attacks.md) | Hydra (SSH, FTP, HTTP, RDP, MySQL, VNC), Pipal (dump analysis) |
-| [`Hashcat & John.md`](CREDS/Hashcat%20%26%20John.md) | Modes, attacks, masks, rules, wordlists, GPU/CPU optimization |
+| [`Credential Attacks`](CREDS/Credential%20Attacks.md) | Hydra (SSH, FTP, HTTP, RDP, MySQL, VNC), Pipal (dump analysis) |
+| [`Hashcat & John`](CREDS/Hashcat%20%26%20John.md) | Modes, attacks, masks, rules, wordlists, GPU/CPU optimization |
 
 ---
 
@@ -104,14 +104,16 @@ Pentesting/
 
 | File | Description |
 |------|-------------|
-| [`Anonymity, Tor & Offensive Tools.md`](PAYLOADS/Anonymity,%20Tor%20%26%20Offensive%20Tools.md) | Tor, proxychains, hidden services, SET, hping3, cameradar, pip config |
-| [`BufferOverflow.md`](PAYLOADS/BufferOverflow.md) | GDB, pwndbg, pwntools, Ghidra, ROP, ret2libc, QEMU, Windows debuggers |
-| [`Cross-Compilation & Python RE.md`](PAYLOADS/Cross-Compilation%20%26%20Python%20RE.md) | Wine, box64, MinGW, PyInstaller extraction, pycdc, uncompyle6 |
-| [`Dotnet.md`](PAYLOADS/Dotnet.md) | .NET malware analysis, de4dot, ILSpy, dnSpy, secret extraction, Supabase testing |
-| [`Metasploit & Payload Tools.md`](PAYLOADS/Metasploit%20%26%20Payload%20Tools.md) | msfconsole, msfvenom, Meterpreter, handler, encoders, formats |
-| [`Netcat.md`](PAYLOADS/Netcat.md) | nc, ncat, socat, reverse/bind shells, alternatives to `-e`, TTY upgrade |
-| [`OpenSSL.md`](PAYLOADS/OpenSSL.md) | Keys, certificates, CSR, PEM/DER/PFX, TLS testing, encryption, basic CA |
-| [`Specific Exploits & Privesc.md`](PAYLOADS/Specific%20Exploits%20%26%20Privesc.md) | JNDI/Log4Shell, MongoDB privesc, vi/vim escape, base64 tricks |
+| [`Anonymity, Tor & Offensive Tools`](PAYLOADS/Anonymity,%20Tor%20%26%20Offensive%20Tools.md) | Tor, proxychains, hidden services, SET, hping3, cameradar, pip config |
+| [`BufferOverflow`](PAYLOADS/BufferOverflow.md) | GDB, pwndbg, pwntools, Ghidra, ROP, ret2libc, QEMU, Windows debuggers |
+| [`Cross-Compilation & Python RE`](PAYLOADS/Cross-Compilation%20%26%20Python%20RE.md) | Wine, box64, MinGW, PyInstaller extraction, pycdc, uncompyle6 |
+| [`Dotnet`](PAYLOADS/Dotnet.md) | .NET malware analysis, de4dot, ILSpy, dnSpy, secret extraction, Supabase testing |
+| [`Metasploit & Payload Tools`](PAYLOADS/Metasploit%20%26%20Payload%20Tools.md) | msfconsole, msfvenom, Meterpreter, handler, encoders, formats |
+| [`Netcat`](PAYLOADS/Netcat.md) | nc, ncat, socat, reverse/bind shells, alternatives to `-e`, TTY upgrade |
+| [`OpenSSL`](PAYLOADS/OpenSSL.md) | Keys, certificates, CSR, PEM/DER/PFX, TLS testing, encryption, basic CA |
+| [`Specific Exploits & Privesc`](PAYLOADS/Specific%20Exploits%20%26%20Privesc.md) | JNDI/Log4Shell, MongoDB privesc, vi/vim escape, base64 tricks |
+| [`DIGITAL FORENSICS`](PAYLOADS/DIGITAL%20FORENSICS.md) | JNDI/Log4Shell, MongoDB privesc, vi/vim escape, base64 tricks |
+| [`Reversing`](PAYLOADS/Reversing.md) | JNDI/Log4Shell, MongoDB privesc, vi/vim escape, base64 tricks |
 
 ---
 
